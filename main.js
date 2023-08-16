@@ -4,10 +4,10 @@ var J1 = prompt(NombreJ1 + ", escoge: Piedra, Papel o Tijera")
 J1 = J1.toLowerCase()
 var NombreJ2 = prompt("Cuál es el nombre del Jugador 2?")
 var J2 = prompt(NombreJ2 +", escoge: Piedra, Papel o Tijera")
-J1 = J1.toLowerCase()
+J2 = J2.toLowerCase()
 
 if (J1==J2){
-    alert("EMPATE!")
+    alert("¡¡EMPATE!!")
 }else if ((J1 == "piedra" && J2 == "papel") ||
     (J1 == "papel" && J2 == "tijera") ||
     (J1 == "tijera" && J2 == "piedra")
